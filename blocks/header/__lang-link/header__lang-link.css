@@ -1,0 +1,7 @@
+.header__lang-link {
+  width: 78px;
+  height: 28px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18px;
+}
