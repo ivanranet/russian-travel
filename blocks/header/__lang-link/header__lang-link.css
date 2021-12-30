@@ -1,7 +1,18 @@
 .header__lang-link {
-  width: 78px;
-  height: 28px;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 18px;
+  font-weight: normal;
+  margin: 18px 0 6px 18px;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: none;
+  color: #fff;
+}
+.header__lang-link:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 767px) {
+  .header__lang-link {
+    font-size: 18px;
+    list-style: 20px;
+    margin: 14px 0 8px 18px;
+  }
 }

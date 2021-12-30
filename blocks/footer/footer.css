@@ -1,0 +1,26 @@
+.footer {
+  width: 1184px;
+  margin: 92px auto 24px;
+  display: flex;
+}
+@media screen and (max-width: 1185px) {
+  .footer {
+    width: 928px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .footer {
+    width: 720px;
+    margin: 88px auto 24px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .footer {
+    width: 186px;
+    height: 310px;
+    margin: 97px 118px 24px 16px;
+    display: grid;
+    grid-template-rows: repeat(5, 56px);
+    grid-auto-rows: 30px;
+  }
+}
