@@ -9,6 +9,6 @@
 
 Проектная работа N 3 образовательного курса Яндекс Практикум по специальности веб-разработка. Работа охватывает и позволяет использовать полученные знания в вёрстке сайтов с помощью Grid Layot и media queres, задающих правила для экранов разных размеров.
 
-**Figma**
+**GitHub**
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+* [Ссылка проекта в GitHub](https://ivanranet.github.io/russian-travel/index.html)
