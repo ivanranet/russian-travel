@@ -11,7 +11,7 @@
   <header class="header">
     <div class="header__logo"></div>
     <div class="header__lang">
-      <a class="header__lang-link" href="#">Ru</a>
+      <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
       <a class="header__lang-link" href="#">En</a>
     </div>
   </header>
@@ -29,15 +29,30 @@
         Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых
         перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и
         проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
-      <p class="intro__list">Часовых поясов 11</p>
-      <p class="intro__list">Объектов природного наследия ЮНЕСКО 12</p>
-      <p class="intro__list">Объектов культурного наследия ЮНЕСКО 16</p>
-      <p class="intro__list">Природных заповедников 105</p>
-      <p class="intro__list">Аэропортов 241</p>
+      <ul class="intro__list">
+        <li class="intro__list-text">Часовых поясов</li>
+        <li class="intro__list-number">11</li>
+      </ul>
+      <ul class="intro__list">
+        <li class="intro__list-text">Объектов природного наследия ЮНЕСКО</li>
+        <li class="intro__list-number">12</li>
+      </ul>
+      <ul class="intro__list">
+        <li class="intro__list-text">Объектов культурного наследия ЮНЕСКО</li>
+        <li class="intro__list-number">16</li>
+      </ul>
+      <ul class="intro__list">
+        <li class="intro__list-text">Природных заповедников</li>
+        <li class="intro__list-number">105</li>
+      </ul>
+      <ul class="intro__list">
+        <li class="intro__list-text">Аэропортов</li>
+        <li class="intro__list-number">241</li>
+      </ul>
     </section>
-    <div class="photo-grid">
+    <section class="photo-grid">
       <img class="photo-grid__item" src="./images/1photo-grid__item.jpg" alt="Изображение. Вид из окна поезда">
-      <img class="photo-grid__item" src="./images/2photo-grid__item.jpg" alt="Фото. Горный хребет Бодьшого Кавказа &#169;Атхарва Тулси">
+      <img class="photo-grid__item" src="./images/2photo-grid__item.jpg" alt="Фото. Горный хребет Большого Кавказа &#169;Атхарва Тулси">
       <img class="photo-grid__item" src="./images/3photo-grid__item.jpg" alt="Изображение. Туман">
       <img class="photo-grid__item" src="./images/4photo-grid__item.jpg" alt="Изображение. Зимний сочинский лес">
       <img class="photo-grid__item" src="./images/5photo-grid__item.jpg" alt="Фото. Колесо автомобиля на льду Байкала &#169;Ариса Чаттаса">
@@ -48,7 +63,7 @@
       <img class="photo-grid__item" src="./images/10photo-grid__item.jpg" alt="Изображение. Камчатка, сопка">
       <img class="photo-grid__item" src="./images/11photo-grid__item.jpg" alt="Изображение. Скалистый берег Байкала">
       <img class="photo-grid__item" src="./images/12photo-grid__item.png" alt="Изображение. Природный парк Ергаки">
-    </div>
+    </section>
     <section class="places">
       <div class="place">
         <h2 class="place__title">Куршская коса</h2>
@@ -128,19 +143,21 @@
       </div>
     </section>
     <section class="cover">
-      <a class="cover__background cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="blank">
+      <a class="cover__background" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="blank">
         <h2 class="cover__title">До Байкала &laquo;на собаках&raquo;</h2>
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
       </a>
     </section>
   </main>
   <footer class="footer">
-    <a class="footer__link" href="https://yandex.ru/maps" target="blank">Карты</a>
-    <a class="footer__link" href="https://yandex.ru/pogoda" target="blank">Погода</a>
-    <a class="footer__link" href="https://rasp.yandex.ru" target="blank">Расписание</a>
-    <a class="footer__link" href="https://calendar.yandex.ru" target="blank">Календарь</a>
-    <a class="footer__link" href="https://travel.yandex.ru" target="blank">Путешествия</a>
-    <p class="footer__copyright">&copy; 2021. Сергей Тарасов</p>
+    <nav>
+      <a class="footer__link" href="https://yandex.ru/maps" target="blank">Карты</a>
+      <a class="footer__link" href="https://yandex.ru/pogoda" target="blank">Погода</a>
+      <a class="footer__link" href="https://rasp.yandex.ru" target="blank">Расписание</a>
+      <a class="footer__link" href="https://calendar.yandex.ru" target="blank">Календарь</a>
+      <a class="footer__link" href="https://travel.yandex.ru" target="blank">Путешествия</a>
+    </nav>
+      <p class="footer__copyright">&copy; 2021. Сергей Тарасов</p>
   </footer>
 </body>
 </html>

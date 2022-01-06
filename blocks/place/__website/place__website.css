@@ -1,20 +1,10 @@
 .place__website {
-  height: 46px;
   margin: auto auto 0 0;
   display: grid;
 }
-.place__website-url-heading {
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 12px;
-  letter-spacing: 2px;
-  margin-top: 0;
-  margin-bottom: 12px;
-  color: #aaa;
-}
-.place__website-link {
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
-  color: #fff;
+@media screen and (max-width: 767px) {
+  .place__website {
+    width: 288px;
+    margin: 0 auto;
+  }
 }
