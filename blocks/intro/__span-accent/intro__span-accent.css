@@ -1,8 +1,8 @@
-.intro__list-text {
-  margin: 0;
+.intro__span-accent {
+  margin-left: 4px;
   padding: 0;
   list-style: none;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 12px;
   line-height: 18px;
   color: #fff;
