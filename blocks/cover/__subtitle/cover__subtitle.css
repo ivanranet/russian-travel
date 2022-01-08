@@ -1,9 +1,9 @@
 .cover__subtitle {
   max-width: 360px;
-  margin: 0 auto auto;
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
+  margin: 16px auto auto;
   text-align: center;
   color: #fff;
 }
@@ -12,5 +12,6 @@
     max-width: 288px;
     font-size: 14px;
     line-height: 16px;
+    margin: 8px auto auto;
   }
 }

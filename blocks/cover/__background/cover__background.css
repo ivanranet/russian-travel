@@ -20,17 +20,16 @@
   opacity: 0.3;
   z-index: -1;
   transition: opacity .5s ease-out;
-  }
-
-  .cover__background:hover::before {
+}
+.cover__background:hover::before {
     opacity: .8;
-  }
-@media screen and (max-width: 1185px) {
+}
+@media screen and (max-width: 1183px) {
   .cover__background {
-  min-height: 640px;
+    min-height: 640px;
   }
 }
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1023px) {
   .cover__background {
     min-height: 480px;
   }
